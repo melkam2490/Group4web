@@ -14,6 +14,12 @@ body{
       cursor: pointer;
     
   }
+  #wrapper {
+    width: 940px;
+    margin: 20px auto;
+    background: rgba(255, 255, 228, 0.9);
+}
+
   .pad{ 
     
     width: 80%;
@@ -35,15 +41,19 @@ body{
       font-size: 20pt;
       text-align:left;
       cursor: pointer;
+     
   }
   .header nav a:hover {
       background-color: #ddd; /* Adding background color on hover */
 }
 .nav a {
-	color: #fff;}	  
+	color: #fff;
+	  }	  
 .nav a:hover{
 	font-size: 1.1em;
 }
+	  
+	  
   .wrapper{
     background-color: grey;
     padding:10px;
@@ -56,8 +66,8 @@ body{
     cursor: pointer;
   }
   .main-text{
-    padding-left: 10px;
-    
+    padding-left: 30px;
+	padding-right: 20px;
     width: 60%;
     float: left;
     background-color:beige;
@@ -79,6 +89,7 @@ body{
   }
   
   .footer{
+	padding-left: 30px;
     margin: 10px;
     float: left;
     width: 100%;
@@ -94,7 +105,4 @@ body{
 
 p {
 	font-size: 1.2em;
-}
-.us{
-  background-color:azure;
 }
